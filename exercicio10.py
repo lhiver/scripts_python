@@ -1,0 +1,10 @@
+# crie um programa que leia quanto dinheiro uma pessoa tem na carteira e mostre quantos dolares ela pode comprar considere us$1.00=r$3.27
+real = float(input('Digite o valor em reais R$: '))
+dolar = real / 5.15
+euro = real / 5.23
+yen = real / 0.036
+libra = real / 5.97
+print(f'R${real:.2f} = US${dolar:.2f}')
+print(f'R${real:.2f} = EU${euro:.2f}')
+print(f'R${real:.2f} = YE${yen:.2f}')
+print(f'R${real:.2f} = l${libra:.2f}')
